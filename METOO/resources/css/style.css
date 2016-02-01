@@ -1,0 +1,333 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearflix {zoom: 1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;   
+    
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;    
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+    border: 1px solid #e5e0e0;
+    box-shadow: 0 5px 5px #8b7b58;
+    border-radius: 5px;
+    height: 25vh;
+    text-align: justify;
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    color: #d01c1c;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;    
+    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #c9864c;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;    
+    
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top: 15px;
+        
+}
+.main-nav li{
+    display: block;
+/*    margin-left: 40px;*/
+    width: 100%;
+}
+
+.section-slogan{
+    padding: 0;
+    height: 90vh;
+    background-image: url(img/villageskills.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-text-box{
+    position: relative;       
+    top:50%;
+    left:25%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border: 1px solid #938d8d;
+    opacity: 0.75;
+    border-radius: 10%;
+    
+}
+
+
+.btn:link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5 10;
+    border-radius: 200px;
+    text-align: center;
+    background-color: rgba(34, 135, 221, 0.9);
+    border: 1px solid #868686;
+    
+        
+}
+.btn-learn:link{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+      
+}
+
+.btn-donate:link,
+.btn-donate:visited{
+    background-color: rgba(34, 135, 221, 0.9);
+    border: 1px solid #868686;
+    width: 100%;
+    
+    }
+.btn-ghost:link,
+.btn-ghost:visited{
+    
+    background-color:#fff;
+    border: 1px solid #555;
+    width: 100%;
+}
+.btn-ghost:hover,
+.btn-ghost:active{     
+    background-color:#f0eeee;
+    border: 1px solid #555;   
+    
+}
+
+.hero-text-box:last-child{
+    text-align: center;
+}
+.section-showcase{
+    background-color: #dedede;
+    padding: 0;
+}
+.showcase-box{
+    background-color: bisque;
+    width: 100%;
+    height: 25vh;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.showcase-box div{
+    text-align: justify;
+}
+.showcase{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(240, 31, 63, 0.46);
+    padding: 10;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+
+.skills-showcase{
+    list-style: none;
+    width: 100%
+}
+.skills-showcase li{
+    display: block;
+    width: 50%;
+    float: left;
+    
+}
+.skill-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.skill-photo img{
+    width: 100%;
+    overflow: hidden;
+    height: 25vh;
+    border-radius: 50%;
+}
+.donate-form{
+    border: 1px solid #a38c8c;
+    border-radius: 10px;
+    background-color: beige;
+    
+}
+.controls{
+    width: 90%;
+}
+
+
+
+.personal-group{
+    
+}
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+    width: 23.8%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+}
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 100%; 
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4 {
+		width: 100%; 
+	}
+	.span_3_of_4 {
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
+		width: 100%; 
+	}
+    .col {  margin: 1% 0 1% 0%; }
+}
