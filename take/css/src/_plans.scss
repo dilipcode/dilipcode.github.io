@@ -1,0 +1,31 @@
+#plans {
+  padding: 4em 0 5em 0;
+  background-color: #f2f1f1;
+  #legacy-plan{
+    padding: 4em 4em;
+  }
+  label {
+    background-color: $dark-font-color;
+  }
+  a {
+    background-color: $primary-color;
+    color: $light-font-color;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  i {
+    margin-right: 1em;
+    color: $dark-font-color;
+    font-size: 1.5em;
+  }
+  #team-plan {
+    padding: 4em 4em;
+    background-color: $light-font-color;
+    box-shadow: 0 0 1em $dark-font-color;
+    label {
+      background-color: pink;
+    }
+  }
+}

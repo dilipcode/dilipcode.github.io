@@ -1,0 +1,27 @@
+#footer {
+  padding: 4em 0;
+  background-color: #2B2929;
+  color: $light-font-color;
+  h5 {
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  #touch {
+    padding-left: 4em;
+  }
+  input {
+    height: 50px;       
+  }
+  span {
+    background-color: $primary-color;
+    height: 50px;
+    width: 50px;
+    text-align: center;   
+  }
+  li {
+    color: $light-font-color;
+  }
+  a {
+    color: $light-font-color;
+  }
+}
