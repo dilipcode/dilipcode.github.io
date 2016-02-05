@@ -1,0 +1,25 @@
+#lastone {
+  margin-top: -220px;
+  .col-primary {
+    background-color: $primary-color;
+    color: #FFF;
+    padding-bottom: 80px;
+    height: 806px;
+  }
+  .col-secondary {
+    padding-bottom: 80px;
+  }
+  .row-image {
+    background-image: url(../images/mountain.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: $primary-color;
+  }
+  .primary{
+    padding: 70px 50px;
+  }
+  .row-secondary{
+    padding: 80px 50px;
+  }
+}

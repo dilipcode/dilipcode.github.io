@@ -1,0 +1,149 @@
+body {
+  font-family: Raleway, sans-serif; }
+
+h1, h2, h3 {
+  font-weight: 200;
+  margin-bottom: 0.5em;
+  text-transform: uppercase; }
+
+h5 {
+  color: #F26522;
+  margin-bottom: 2em; }
+
+#header {
+  background: url(../images/800.jpg);
+  height: 150vh;
+  background-position: center;
+  background-size: cover; }
+  #header nav {
+    margin-top: 3em; }
+  #header a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase; }
+  #header li {
+    display: inline-block;
+    padding: 1em 0;
+    margin-right: 2em;
+    font-weight: 300;
+    letter-spacing: 0.1rem; }
+  #header li:first-child {
+    border-bottom: 2px solid red; }
+  #header .sleek {
+    position: absolute;
+    top: 50%;
+    padding-left: 0; }
+    #header .sleek h2 {
+      color: #FFF;
+      font-size: 3em; }
+    #header .sleek p {
+      color: #FFF; }
+    #header .sleek img {
+      margin-right: 1.5em; }
+
+#intro {
+  margin-top: -300px; }
+  #intro .icons {
+    padding-left: 0; }
+  #intro a {
+    margin-right: 1em; }
+  #intro .primary {
+    background-color: #F26522;
+    padding: 70px 50px 290px 50px;
+    color: #FFF; }
+  #intro .first-flag {
+    height: 330px; }
+  #intro .second-flag {
+    padding: 80px 40px; }
+    #intro .second-flag a i {
+      display: inline-block; }
+
+#melbourne {
+  padding: 50px 0;
+  margin-bottom: 80px; }
+
+#bridge {
+  background: url(../images/bridge.jpg);
+  height: 130vh;
+  background-position: center;
+  background-size: cover; }
+
+#words {
+  margin-top: -450px; }
+  #words .col-text {
+    height: 450px;
+    background-color: #F26522;
+    color: #FFF; }
+    #words .col-text h1 {
+      margin-top: 150px;
+      margin-left: 50px;
+      font-size: 68px; }
+  #words .col-image {
+    background: url(../images/camera.jpg);
+    height: 450px;
+    width: 450px;
+    background-position: center;
+    background-size: cover; }
+  #words .col-primary {
+    background-color: #F26522;
+    padding: 50px 50px 120px 50px;
+    color: #FFF; }
+  #words .col-secondary {
+    background-color: #F26522;
+    padding: 50px 50px 80px 50px;
+    color: #FFF; }
+
+#action {
+  background-color: #333;
+  margin-left: 89.5px; }
+  #action .container {
+    background-color: #333; }
+  #action .primary-action {
+    height: 300px;
+    padding: 50px 50px 50px 15px;
+    color: #fff; }
+  #action .contact {
+    width: 250px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 1px; }
+  #action .signup {
+    width: 150px;
+    padding: 20px 40px;
+    color: #fff;
+    background-color: #333; }
+
+#wood {
+  background-image: url(../images/wood.jpg);
+  height: 128vh;
+  background-size: cover;
+  margin-left: 89.5px; }
+
+#lastone {
+  margin-top: -220px; }
+  #lastone .col-primary {
+    background-color: #F26522;
+    color: #FFF;
+    padding-bottom: 80px;
+    height: 806px; }
+  #lastone .col-secondary {
+    padding-bottom: 80px; }
+  #lastone .row-image {
+    background-image: url(../images/mountain.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: #F26522; }
+  #lastone .primary {
+    padding: 70px 50px; }
+  #lastone .row-secondary {
+    padding: 80px 50px; }
+
+#footer {
+  background-color: #333;
+  padding-top: 80px;
+  padding-bottom: 160px; }
+  #footer a {
+    color: #fff; }
+
+/*# sourceMappingURL=app.css.map */

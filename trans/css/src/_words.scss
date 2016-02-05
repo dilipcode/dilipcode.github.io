@@ -1,0 +1,43 @@
+#words {
+  // background-color: $primary-color;
+  margin-top: -450px;
+  // margin-left: 89.5px;  
+  .col-text {
+    height: 450px;
+    background-color: $primary-color;
+    color: #FFF;
+    h1 {
+      margin-top: 150px;
+      margin-left: 50px;
+      font-size: 68px;
+    }
+  }
+  .col-image{
+  background: url(../images/camera.jpg);
+  height: 450px;
+  width: 450px;
+  background-position: center;
+  background-size: cover;
+  }
+  .col-blank {
+
+  }
+  .col-cover {
+    // background-color: $primary-color;
+    // margin-right: 0;    
+  }
+  .row-extend {
+    // margin-right: -89.5px;
+  }
+  .col-primary{
+    background-color: $primary-color;
+    padding: 50px 50px 120px 50px;
+    color: #FFF;
+  }
+  .col-secondary{
+    background-color: $primary-color;
+    padding: 50px 50px 80px 50px;
+    color: #FFF;    
+  }
+
+}
