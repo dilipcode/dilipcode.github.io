@@ -4,7 +4,20 @@
   height: 150vh;
   background-position: center;
   background-size: cover;
-
+  .nav-brand {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    transform : rotateZ(0.25turn);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5em;
+    font-size: 1.5em;
+    span {
+      color: $primary-color;
+      transform: rotateY(0.5turn);
+    } 
+  }
   nav {
     margin-top: 3em;
   }
