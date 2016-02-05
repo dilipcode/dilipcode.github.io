@@ -1,0 +1,46 @@
+#header {
+  background: url(../images/800.jpg);
+  // background-image: url(../images/land.jpg);
+  height: 150vh;
+  background-position: center;
+  background-size: cover;
+
+  nav {
+    margin-top: 3em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+  }
+  li {
+    display: inline-block;
+    padding: 1em 0;
+    margin-right: 2em;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+  li:first-child {
+    border-bottom: 2px solid red;
+  }
+
+  .sleek {
+    // background: transparent;
+    position: absolute;
+    top: 50%;
+    padding-left: 0;    
+    // margin-bottom: 24em;
+
+    h2 {
+      color: #FFF;
+      font-size: 3em;
+    }
+    p {
+      color: #FFF;
+    }
+    img {
+      margin-right: 1.5em;      
+    }
+  }
+}
