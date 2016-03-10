@@ -1,0 +1,40 @@
+.calculator {
+  margin: 10px auto;
+  width: 100vh;  
+  .result {
+    height: 20vh;
+    background-color: #DDD;
+    font-size: 8vh;
+    text-align: right;
+
+  }
+  .preview {
+    height: 15vh;
+    background-color: #BBB;
+    font-size: 6vh;
+    text-align: right;
+  }
+  .num {
+    height: 12vh;
+    background-color: darken(aqua,5%);
+    text-align: center;
+    font-size: 6vh;    
+    &:hover {
+      background-color: darken(aqua,20%);
+    }
+  }
+  .symbol {
+    height: 8vh;
+    background-color: darken(burlywood,5%);
+    text-align: center;
+    font-size: 5vh;
+    border-bottom: 1px solid;
+    &:hover{
+      background-color: darken(burlywood,20%);
+    }
+
+
+  }
+}
+
+  
